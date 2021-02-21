@@ -1,0 +1,169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4B2B5B0225E3250500A0CD5E /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = obj; sourceTree = "<group>"; };
+		4B2B5B0325E3250500A0CD5E /* build-aux */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "build-aux"; sourceTree = "<group>"; };
+		4B2B5B0425E3250500A0CD5E /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		4B2B5B0525E3250500A0CD5E /* ci */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci; sourceTree = "<group>"; };
+		4B2B5B0625E3250500A0CD5E /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		4B2B5B0725E3250500A0CD5E /* contrib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = contrib; sourceTree = "<group>"; };
+		4B2B5B0825E3250500A0CD5E /* libsecp256k1.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = libsecp256k1.pc.in; sourceTree = "<group>"; };
+		4B2B5B0925E3250500A0CD5E /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		4B2B5B0A25E3250500A0CD5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4B2B5B0B25E3250500A0CD5E /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		4B2B5B0C25E3250500A0CD5E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4B2B5B0D25E3250500A0CD5E /* .cirrus.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .cirrus.yml; sourceTree = "<group>"; };
+		4B2B5B0E25E3250500A0CD5E /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
+		4B2B5B0F25E3250500A0CD5E /* sage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sage; sourceTree = "<group>"; };
+		4B2B5B1025E3250500A0CD5E /* SECURITY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SECURITY.md; sourceTree = "<group>"; };
+		4B2B5B1125E3250500A0CD5E /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		4B2B5B1225E3250500A0CD5E /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4B2B5AFC25E3250500A0CD5E = {
+			isa = PBXGroup;
+			children = (
+				4B2B5B0225E3250500A0CD5E /* obj */,
+				4B2B5B0325E3250500A0CD5E /* build-aux */,
+				4B2B5B0425E3250500A0CD5E /* configure.ac */,
+				4B2B5B0525E3250500A0CD5E /* ci */,
+				4B2B5B0625E3250500A0CD5E /* include */,
+				4B2B5B0725E3250500A0CD5E /* contrib */,
+				4B2B5B0825E3250500A0CD5E /* libsecp256k1.pc.in */,
+				4B2B5B0925E3250500A0CD5E /* Makefile.am */,
+				4B2B5B0A25E3250500A0CD5E /* README.md */,
+				4B2B5B0B25E3250500A0CD5E /* COPYING */,
+				4B2B5B0C25E3250500A0CD5E /* .gitignore */,
+				4B2B5B0D25E3250500A0CD5E /* .cirrus.yml */,
+				4B2B5B0E25E3250500A0CD5E /* .git */,
+				4B2B5B0F25E3250500A0CD5E /* sage */,
+				4B2B5B1025E3250500A0CD5E /* SECURITY.md */,
+				4B2B5B1125E3250500A0CD5E /* autogen.sh */,
+				4B2B5B1225E3250500A0CD5E /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4B2B5B0125E3250500A0CD5E /* secp256k1 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 4B2B5B1325E3250500A0CD5E /* Build configuration list for PBXLegacyTarget "secp256k1" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/git/secp256k1-ios/secp256k1";
+			dependencies = (
+			);
+			name = secp256k1;
+			passBuildSettingsInEnvironment = 1;
+			productName = secp256k1;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		4B2B5AFD25E3250500A0CD5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4B2B5B0025E3250500A0CD5E /* Build configuration list for PBXProject "secp256k1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B2B5AFC25E3250500A0CD5E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2B5B0125E3250500A0CD5E /* secp256k1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4B2B5AFE25E3250500A0CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4B2B5AFF25E3250500A0CD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4B2B5B1425E3250500A0CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = secp256k1;
+			};
+			name = Debug;
+		};
+		4B2B5B1525E3250500A0CD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = secp256k1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2B5B0025E3250500A0CD5E /* Build configuration list for PBXProject "secp256k1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2B5AFE25E3250500A0CD5E /* Debug */,
+				4B2B5AFF25E3250500A0CD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2B5B1325E3250500A0CD5E /* Build configuration list for PBXLegacyTarget "secp256k1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2B5B1425E3250500A0CD5E /* Debug */,
+				4B2B5B1525E3250500A0CD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B2B5AFD25E3250500A0CD5E /* Project object */;
+}

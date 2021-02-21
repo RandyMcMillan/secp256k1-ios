@@ -147,6 +147,22 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXLegacyTarget section */
+		4B2B5B1625E325C900A0CD5E /* secp256k1 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 4B2B5B1925E325C900A0CD5E /* Build configuration list for PBXLegacyTarget "secp256k1" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = secp256k1;
+			passBuildSettingsInEnvironment = 1;
+			productName = secp256k1;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		1F9D29651C72B9BB000025E6 /* ios-cpp-bridge */ = {
 			isa = PBXNativeTarget;
@@ -224,6 +240,11 @@
 						DevelopmentTeam = M684FYCYG6;
 						TestTargetID = 1F9D29651C72B9BB000025E6;
 					};
+					4B2B5B1625E325C900A0CD5E = {
+						CreatedOnToolsVersion = 11.3.1;
+						DevelopmentTeam = M684FYCYG6;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 1F9D29611C72B9BB000025E6 /* Build configuration list for PBXProject "ios-cpp-bridge" */;
@@ -242,6 +263,7 @@
 				1F9D29651C72B9BB000025E6 /* ios-cpp-bridge */,
 				1F9D297E1C72B9BB000025E6 /* cpp.bridge.test */,
 				1F9D29891C72B9BB000025E6 /* cpp.bridge.uitest */,
+				4B2B5B1625E325C900A0CD5E /* secp256k1 */,
 			);
 		};
 /* End PBXProject section */
@@ -520,6 +542,50 @@
 			};
 			name = Release;
 		};
+		4B2B5B1725E325C900A0CD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B2B5B1825E325C900A0CD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -555,6 +621,15 @@
 			buildConfigurations = (
 				1F9D299A1C72B9BB000025E6 /* Debug */,
 				1F9D299B1C72B9BB000025E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2B5B1925E325C900A0CD5E /* Build configuration list for PBXLegacyTarget "secp256k1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2B5B1725E325C900A0CD5E /* Debug */,
+				4B2B5B1825E325C900A0CD5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

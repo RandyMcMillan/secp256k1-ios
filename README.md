@@ -1,1 +1,1 @@
-# ios-cpp-bridge
+# secp256k1-ios
