@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9D296B1C72B9BB000025E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D296A1C72B9BB000025E6 /* main.m */; };
+		1F9D296E1C72B9BB000025E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D296D1C72B9BB000025E6 /* AppDelegate.m */; };
+		1F9D29711C72B9BB000025E6 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D29701C72B9BB000025E6 /* ViewController.mm */; };
+		1F9D29741C72B9BB000025E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D29721C72B9BB000025E6 /* Main.storyboard */; };
+		1F9D29761C72B9BB000025E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D29751C72B9BB000025E6 /* Assets.xcassets */; };
+		1F9D29791C72B9BB000025E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D29771C72B9BB000025E6 /* LaunchScreen.storyboard */; };
+		1F9D29841C72B9BB000025E6 /* cpp.bridge.test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D29831C72B9BB000025E6 /* cpp.bridge.test.m */; };
+		1F9D298F1C72B9BB000025E6 /* cpp.bridge.uitest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D298E1C72B9BB000025E6 /* cpp.bridge.uitest.m */; };
+		1F9D299E1C7319BF000025E6 /* Bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D299C1C7319BF000025E6 /* Bridge.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9D29801C72B9BB000025E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9D295E1C72B9BB000025E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9D29651C72B9BB000025E6;
+			remoteInfo = HelloCpp;
+		};
+		1F9D298B1C72B9BB000025E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9D295E1C72B9BB000025E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9D29651C72B9BB000025E6;
+			remoteInfo = HelloCpp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9D29661C72B9BB000025E6 /* ios-cpp-bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-cpp-bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9D296A1C72B9BB000025E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F9D296C1C72B9BB000025E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F9D296D1C72B9BB000025E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F9D296F1C72B9BB000025E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F9D29701C72B9BB000025E6 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		1F9D29731C72B9BB000025E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9D29751C72B9BB000025E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9D29781C72B9BB000025E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9D297A1C72B9BB000025E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9D297F1C72B9BB000025E6 /* cpp.bridge.test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpp.bridge.test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9D29831C72B9BB000025E6 /* cpp.bridge.test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpp.bridge.test.m; sourceTree = "<group>"; };
+		1F9D29851C72B9BB000025E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9D298A1C72B9BB000025E6 /* cpp.bridge.uitest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpp.bridge.uitest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9D298E1C72B9BB000025E6 /* cpp.bridge.uitest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpp.bridge.uitest.m; sourceTree = "<group>"; };
+		1F9D29901C72B9BB000025E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9D299C1C7319BF000025E6 /* Bridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bridge.cpp; sourceTree = "<group>"; };
+		1F9D299D1C7319BF000025E6 /* Bridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bridge.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9D29631C72B9BB000025E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9D297C1C72B9BB000025E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9D29871C72B9BB000025E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9D295D1C72B9BB000025E6 = {
+			isa = PBXGroup;
+			children = (
+				1F9D29681C72B9BB000025E6 /* cpp.bridge */,
+				1F9D29821C72B9BB000025E6 /* cpp.bridge.test */,
+				1F9D298D1C72B9BB000025E6 /* cpp.bridge.uitest */,
+				1F9D29671C72B9BB000025E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9D29671C72B9BB000025E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D29661C72B9BB000025E6 /* ios-cpp-bridge.app */,
+				1F9D297F1C72B9BB000025E6 /* cpp.bridge.test.xctest */,
+				1F9D298A1C72B9BB000025E6 /* cpp.bridge.uitest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9D29681C72B9BB000025E6 /* cpp.bridge */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D296C1C72B9BB000025E6 /* AppDelegate.h */,
+				1F9D296D1C72B9BB000025E6 /* AppDelegate.m */,
+				1F9D296F1C72B9BB000025E6 /* ViewController.h */,
+				1F9D29701C72B9BB000025E6 /* ViewController.mm */,
+				1F9D299C1C7319BF000025E6 /* Bridge.cpp */,
+				1F9D299D1C7319BF000025E6 /* Bridge.hpp */,
+				1F9D29721C72B9BB000025E6 /* Main.storyboard */,
+				1F9D29751C72B9BB000025E6 /* Assets.xcassets */,
+				1F9D29771C72B9BB000025E6 /* LaunchScreen.storyboard */,
+				1F9D297A1C72B9BB000025E6 /* Info.plist */,
+				1F9D29691C72B9BB000025E6 /* Supporting Files */,
+			);
+			path = cpp.bridge;
+			sourceTree = "<group>";
+		};
+		1F9D29691C72B9BB000025E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D296A1C72B9BB000025E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9D29821C72B9BB000025E6 /* cpp.bridge.test */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D29831C72B9BB000025E6 /* cpp.bridge.test.m */,
+				1F9D29851C72B9BB000025E6 /* Info.plist */,
+			);
+			path = cpp.bridge.test;
+			sourceTree = "<group>";
+		};
+		1F9D298D1C72B9BB000025E6 /* cpp.bridge.uitest */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D298E1C72B9BB000025E6 /* cpp.bridge.uitest.m */,
+				1F9D29901C72B9BB000025E6 /* Info.plist */,
+			);
+			path = cpp.bridge.uitest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9D29651C72B9BB000025E6 /* ios-cpp-bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9D29931C72B9BB000025E6 /* Build configuration list for PBXNativeTarget "ios-cpp-bridge" */;
+			buildPhases = (
+				1F9D29621C72B9BB000025E6 /* Sources */,
+				1F9D29631C72B9BB000025E6 /* Frameworks */,
+				1F9D29641C72B9BB000025E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-cpp-bridge";
+			productName = HelloCpp;
+			productReference = 1F9D29661C72B9BB000025E6 /* ios-cpp-bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9D297E1C72B9BB000025E6 /* cpp.bridge.test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9D29961C72B9BB000025E6 /* Build configuration list for PBXNativeTarget "cpp.bridge.test" */;
+			buildPhases = (
+				1F9D297B1C72B9BB000025E6 /* Sources */,
+				1F9D297C1C72B9BB000025E6 /* Frameworks */,
+				1F9D297D1C72B9BB000025E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9D29811C72B9BB000025E6 /* PBXTargetDependency */,
+			);
+			name = cpp.bridge.test;
+			productName = HelloCppTests;
+			productReference = 1F9D297F1C72B9BB000025E6 /* cpp.bridge.test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F9D29891C72B9BB000025E6 /* cpp.bridge.uitest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9D29991C72B9BB000025E6 /* Build configuration list for PBXNativeTarget "cpp.bridge.uitest" */;
+			buildPhases = (
+				1F9D29861C72B9BB000025E6 /* Sources */,
+				1F9D29871C72B9BB000025E6 /* Frameworks */,
+				1F9D29881C72B9BB000025E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9D298C1C72B9BB000025E6 /* PBXTargetDependency */,
+			);
+			name = cpp.bridge.uitest;
+			productName = HelloCppUITests;
+			productReference = 1F9D298A1C72B9BB000025E6 /* cpp.bridge.uitest.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9D295E1C72B9BB000025E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Sitepoint;
+				TargetAttributes = {
+					1F9D29651C72B9BB000025E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M684FYCYG6;
+					};
+					1F9D297E1C72B9BB000025E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M684FYCYG6;
+						TestTargetID = 1F9D29651C72B9BB000025E6;
+					};
+					1F9D29891C72B9BB000025E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M684FYCYG6;
+						TestTargetID = 1F9D29651C72B9BB000025E6;
+					};
+				};
+			};
+			buildConfigurationList = 1F9D29611C72B9BB000025E6 /* Build configuration list for PBXProject "ios-cpp-bridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9D295D1C72B9BB000025E6;
+			productRefGroup = 1F9D29671C72B9BB000025E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9D29651C72B9BB000025E6 /* ios-cpp-bridge */,
+				1F9D297E1C72B9BB000025E6 /* cpp.bridge.test */,
+				1F9D29891C72B9BB000025E6 /* cpp.bridge.uitest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9D29641C72B9BB000025E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D29791C72B9BB000025E6 /* LaunchScreen.storyboard in Resources */,
+				1F9D29761C72B9BB000025E6 /* Assets.xcassets in Resources */,
+				1F9D29741C72B9BB000025E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9D297D1C72B9BB000025E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9D29881C72B9BB000025E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9D29621C72B9BB000025E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D29711C72B9BB000025E6 /* ViewController.mm in Sources */,
+				1F9D296E1C72B9BB000025E6 /* AppDelegate.m in Sources */,
+				1F9D299E1C7319BF000025E6 /* Bridge.cpp in Sources */,
+				1F9D296B1C72B9BB000025E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9D297B1C72B9BB000025E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D29841C72B9BB000025E6 /* cpp.bridge.test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9D29861C72B9BB000025E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D298F1C72B9BB000025E6 /* cpp.bridge.uitest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9D29811C72B9BB000025E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9D29651C72B9BB000025E6 /* ios-cpp-bridge */;
+			targetProxy = 1F9D29801C72B9BB000025E6 /* PBXContainerItemProxy */;
+		};
+		1F9D298C1C72B9BB000025E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9D29651C72B9BB000025E6 /* ios-cpp-bridge */;
+			targetProxy = 1F9D298B1C72B9BB000025E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F9D29721C72B9BB000025E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9D29731C72B9BB000025E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9D29771C72B9BB000025E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9D29781C72B9BB000025E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9D29911C72B9BB000025E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.bridge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9D29921C72B9BB000025E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cpp.bridge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9D29941C72B9BB000025E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_FILE = cpp.bridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F9D29951C72B9BB000025E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_FILE = cpp.bridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F9D29971C72B9BB000025E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_FILE = cpp.bridge.test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cpp-bridge.app/ios-cpp-bridge";
+			};
+			name = Debug;
+		};
+		1F9D29981C72B9BB000025E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_FILE = cpp.bridge.test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cpp-bridge.app/ios-cpp-bridge";
+			};
+			name = Release;
+		};
+		1F9D299A1C72B9BB000025E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "$(TARGET_NAME)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F9D299B1C72B9BB000025E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M684FYCYG6;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "$(TARGET_NAME)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9D29611C72B9BB000025E6 /* Build configuration list for PBXProject "ios-cpp-bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9D29911C72B9BB000025E6 /* Debug */,
+				1F9D29921C72B9BB000025E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9D29931C72B9BB000025E6 /* Build configuration list for PBXNativeTarget "ios-cpp-bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9D29941C72B9BB000025E6 /* Debug */,
+				1F9D29951C72B9BB000025E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9D29961C72B9BB000025E6 /* Build configuration list for PBXNativeTarget "cpp.bridge.test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9D29971C72B9BB000025E6 /* Debug */,
+				1F9D29981C72B9BB000025E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9D29991C72B9BB000025E6 /* Build configuration list for PBXNativeTarget "cpp.bridge.uitest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9D299A1C72B9BB000025E6 /* Debug */,
+				1F9D299B1C72B9BB000025E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9D295E1C72B9BB000025E6 /* Project object */;
+}
